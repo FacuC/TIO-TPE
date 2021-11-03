@@ -1,0 +1,39 @@
+*{
+    background-color:rgb(109, 58, 16);
+    margin:0px;
+    padding:0px;
+}
+h1{
+    width:580px;
+    margin:auto;
+    font-size:95px;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    margin:70px;
+    margin-top:20px;
+    width:900px;
+    height:60px;
+    font-size:40px;
+    
+}
+ol{
+    margin:70px;
+    margin-top:0px;
+    font-size:30px;
+    width:500px;
+
+}
+button{
+    font-size:40px;
+    width:580;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ul{
+  
+    margin:0px;
+    margin-top:180px;
+    width:300px;
+    font-size:25px;
+}
