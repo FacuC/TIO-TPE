@@ -1,10 +1,14 @@
 "uses strict";
 const url = "https://60c2aab9917002001739d577.mockapi.io/bat/voluntarios";
+let btnPut = document.querySelector("#put");
+btnPut.addEventListener("click", () => {
+    editar(16);
+});
 async function editar(id) {
     let nombre = document.getElementById("nombre").value;
     let apellido = document.getElementById("apellido").value;
     let telefono = document.getElementById("telefono").value;
-    let mail = document.getElementById("mail").value;
+    let mail = document.getElementById("email").value;
     let area = document.getElementById("area").value;
     let turno = document.getElementById("turno").value;
 
