@@ -1,0 +1,24 @@
+BÁSICO
+3. Acceder a las siguientes URL’s: 
+https://jsonplaceholder.typicode.com/posts
+https://web-unicen.herokuapp.com/api/groups/ejemplos/nombres
+
+¿Qué es lo que muestra y por qué? Analice la estructura de los datos. Puede utilizar este plugin para ver mejor la respuesta.
+
+4.  Si se desean recibir y enviar datos a un servicio, analizar qué se debe definir en el parámetro opciones de la interfaz fetch: 
+
+fetch(url, opciones).then(...)
+
+5. Obtenga mediante un llamado ajax los datos están en el servicio a y b del punto 3 y muestrelos en una lista de una página html.
+
+6. Implementar un envío de datos al servicio de nombres de la cátedra: https://web-unicen.herokuapp.com/api/groups/ejemplos/nombres.
+Considere:
+Debe llenar a través de un input el nombre que quiere enviar
+Debe mostrar en la página el dato enviado, el JSON enviado y la url donde envía.
+Una vez enviado, vuelta a mostrar la lista usando la función que hizo en el ejercicio 5.
+
+
+INTERMEDIO
+7. Borre algún item específico del servicio de nombres.
+
+8. Realice la modificación de alguno de los datos del servicio a través de un formulario donde especifique el ID y el nombre nuevo. Muestre en la página el dato antiguo, el dato nuevo y verifique que fue modificado.
